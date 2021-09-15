@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyAndroidIoTMakerApp.iml" filepath="$PROJECT_DIR$/.idea/modules/MyAndroidIoTMakerApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyAndroidIoTMakerApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyAndroidIoTMakerApp.app.iml" />
-    </modules>
-  </component>
-</project>

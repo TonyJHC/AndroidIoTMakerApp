@@ -25,6 +25,15 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    packagingOptions {
+        pickFirst 'META-INF/LICENSE'
+        pickFirst 'META-INF/LICENSE.txt'
+        pickFirst 'META-INF/DEPENDENCIES'
+        pickFirst 'META-INF/NOTICE'
+        pickFirst 'META-INF/NOTICE.txt'
+        pickFirst 'META-INF/ASL2.0'
+    }
 }
 
 dependencies {
@@ -36,4 +45,16 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation files('libs\\JAVA_TCP_SDK_2.0.1.jar')
+    implementation files('libs\\commons-lang-2.6.jar')
+    implementation files('libs\\commons-lang3-3.1.jar')
+    implementation files('libs\\mina-core-2.0.7.jar')
+    implementation files('libs\\mina-integration-beans-2.0.7.jar')
+    implementation files('libs\\slf4j-api-1.7.4.jar')
+    implementation files('libs\\log4j-1.2.15.jar')
+    implementation files('libs\\gson-2.2.1.jar')
+    implementation files('libs\\jackson-core-asl-1.9.12.jar')
+    implementation files('libs\\jackson-mapper-asl-1.9.12.jar')
+    implementation files('libs\\IoTSecuritySDK.jar')
+
 }
